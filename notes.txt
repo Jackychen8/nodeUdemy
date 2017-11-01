@@ -1,0 +1,24 @@
+Differences from Browser to CLI
+'window' becomes 'global'
+
+
+Template strings (ES6)
+` ${var}`
+
+Each file has 'modules' variable
+modules.export
+// console.log(module);
+// module.exports
+
+require(); //node 
+vs 
+import {} from '...' ; //es6
+
+module.exports = ...; is equivalent to export default .... exports.foo = ... is equivalent to export var foo = ...
+
+Module Types
+core module (included with node)
+local file/module
+npm module
+
+lodash
