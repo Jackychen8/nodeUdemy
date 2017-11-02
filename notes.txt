@@ -16,9 +16,30 @@ import {} from '...' ; //es6
 
 module.exports = ...; is equivalent to export default .... exports.foo = ... is equivalent to export var foo = ...
 
+typeof <var or const>
+
 Module Types
 core module (included with node)
 local file/module
 npm module
 
-lodash
+Useful Modules
+lodash (does a bunch of processing on strings and other data structures)
+nodemon (hot restarts)
+yargs (can create dictionary from argv w/ --title)
+
+args to 'node app.js' script == process.argv[]
+
+
+
+
+
+
+
+
+fs.writeFileSync('notes.json', originalNoteString);
+
+
+var x = True ? 1 : 2
+
+
